@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="newsSourceTextView">Select News Source:</string>
+    <string name="getNewsButton">Get News</string>
+    <string name="finishButton">Finish</string>
+    <string name="getNewsBaseURL">https://newsapi.org/v1/articles</string>
+    <string name="ApiKey">apiKey</string>
+    <string name="MyApiKey">e4465c757c66445bb3c4ab63c311aa77</string>
+    <string name="SourceKey">source</string>
+    <string name="MaxLimitReached">Items max count reached</string>
+    <string name="MinLimitReached">Minimum limit reached</string>
+    <string name="GetMethod">GET</string>
+    <string name="NewsText">News :</string>
+    <string name="AuthorText">Author :</string>
+    <string name="Published">Published on :</string>
+    <string name="Description">Description :</string>
+    <string-array name="newsSourceArray">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+    <string-array name="newsSourceArrayValues" translatable = "false">
+        <item>bbc-news</item>
+        <item>cnn</item>
+        <item>buzzfeed</item>
+        <item>espn</item>
+        <item>sky-news</item>
+    </string-array>
+</resources>
